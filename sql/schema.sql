@@ -153,9 +153,9 @@ CREATE TABLE `alerts` (
 
 -- Default password for all seeded users: password (bcrypt hashed)
 INSERT INTO `users` (`username`, `email`, `password_hash`, `full_name`, `role`) VALUES
-('admin', 'admin@labsys.com', '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Dr. Admin User', 'admin'),
-('labmanager', 'manager@labsys.com', '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Dr. Sarah Chen', 'lab_manager'),
-('staff1', 'staff@labsys.com', '$2y$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'John Smith', 'staff');
+('admin', 'admin@labsys.com', '$2y$10$VruE6ftfktb48rjRjXF7UeD/2RYGfluvHsulDt1wUoXCMvYxwvL.W', 'Dr. Admin User', 'admin'),
+('labmanager', 'manager@labsys.com', '$2y$10$VruE6ftfktb48rjRjXF7UeD/2RYGfluvHsulDt1wUoXCMvYxwvL.W', 'Dr. Sarah Chen', 'lab_manager'),
+('staff1', 'staff@labsys.com', '$2y$10$VruE6ftfktb48rjRjXF7UeD/2RYGfluvHsulDt1wUoXCMvYxwvL.W', 'John Smith', 'staff');
 
 INSERT INTO `categories` (`name`, `description`, `color_code`) VALUES
 ('Chemical', 'Chemical compounds and solvents', '#E74C3C'),
